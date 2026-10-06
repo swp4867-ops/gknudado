@@ -1,0 +1,44 @@
+{
+  "tests": {
+    "files_passed": 11,
+    "tests_passed": 84,
+    "failed": 0
+  },
+  "build": "npm run build:pages 성공",
+  "source": "welfare-chat; 동일 소스를 임시 검증 폴더에서 잠금 파일 버전으로 검증",
+  "mobile": {
+    "viewport": "390 × 844",
+    "composer_font_px": 16,
+    "settings_input_font_px": 16,
+    "horizontal_overflow": false,
+    "viewport_scale_after_settings_input": 1,
+    "physical_iOS_Safari_tested": false
+  },
+  "live_gemma_generation_tested": false,
+  "database": {
+    "asOf": "2026-10-07",
+    "databaseSha256": "abd3f51f568e7d5f5f977783f20928269501bb3863690de3096a9ff955d7fede",
+    "programCount": 5,
+    "sourceCount": 49,
+    "documentCount": 1375,
+    "indexedSourceChunks": 1056,
+    "structuredRows": {
+      "rules": 89,
+      "income_thresholds": 36,
+      "benefit_rates": 37,
+      "application_documents": 40,
+      "timelines": 20,
+      "interactions": 8,
+      "assessment_parameters": 8,
+      "contacts": 251,
+      "faq": 87,
+      "statistics": 5,
+      "embedded_forms": 110
+    },
+    "excludedSources": [
+      "S18 (지역 자료)",
+      "본문 미추출/다운로드 실패 자료"
+    ],
+    "strategy": "SQLite에서 생성한 구조화 기준 + 공식 원문 페이지 검색; 최대 5개 발췌만 모델에 전달"
+  }
+}
